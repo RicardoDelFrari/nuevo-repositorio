@@ -1,0 +1,78 @@
+    .logo{
+       transform: translate(2px);
+     }
+
+ 
+
+    .campo input:focus {
+        color: black;
+        background-color: rgb(209, 202, 202)
+    }
+    .modelBox{
+        background-color: goldenrod;
+        position: absolute;
+        width: auto;
+        height: auto;
+        border: 3px solid;
+        right: 0px;
+        left: 90%;
+        top: 69%;
+       
+    }
+    .link a:hover{
+        color: goldenrod;
+        
+
+    }
+    .link a:active{
+        color: black;
+
+    }
+    .link a{
+        color: black;
+    }  
+    
+    
+.foto3{
+    position: absolute;
+    width: auto;
+    height: auto;
+    right: 20%;
+    left: auto;
+    top: 64%;;
+}
+.pgf{
+    color: black;
+}
+.pgf a{
+    color: black;
+}
+.pgf a:hover{
+    color: goldenrod;
+}
+.ayuda a{
+    color: black;
+}
+
+
+.modeli{
+    background: linear-gradient(yellow, goldenrod);
+    
+   
+    
+ }
+ .logo{
+    transform: translate(500px, -1098px);
+ }
+
+
+
+
+
+
+
+
+
+
+  
+
