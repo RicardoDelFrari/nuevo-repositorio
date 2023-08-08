@@ -1,3 +1,4 @@
+    
     .logo{
        transform: translate(2px);
      }
@@ -45,6 +46,7 @@
     color: black;
 }
 .pgf a{
+    
     color: black;
 }
 .pgf a:hover{
@@ -53,18 +55,16 @@
 .ayuda a{
     color: black;
 }
-
-
-.modeli{
-    background: linear-gradient(yellow, goldenrod);
-    
-   
-    
- }
  .logo{
-    transform: translate(500px, -1098px);
+    transform: translate(500px, -1284px);
  }
+.imagenpls{
+    transform: translate(510px, 480px);
 
+}
+.navbar-example2{
+
+}
 
 
 

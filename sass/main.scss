@@ -1,105 +1,66 @@
- // vars
- $colorFondo: goldenrod;
- $colornormal: black;
- $mnobile: 132px;
- $tablet: 300px;
- 
- .body{
-    &_logo{
-    position: absolute;
-    height: 1%;
-    width: 13%;
-    top: 0%;
-    left: auto;
-    right: 50%;
-    left: auto;
+.logo{
+    transform: translate(2px);
+  }
+
+
+
+ .campo input:focus {
+     color: black;
+     background-color: rgb(209, 202, 202)
  }
- .modeli{
-    background-color: goldenrod;
- }
-
-
-
-.campo input:focus {
-    color: black;
-    background-color: rgb(209, 202, 202)
-}
-.modelBox{
-    background-color: $colorFondo;
-    position: absolute;
-    width: auto;
-    height: auto;
-    border: 3px solid;
-    right: 0px;
-    left: 90%;
-    top: 69%;
-   
-}
-.link a:hover{
-    color: goldenrod;
+ .modelBox{
+     background-color: goldenrod;
+     position: absolute;
+     width: auto;
+     height: auto;
+     border: 3px solid;
+     right: 0px;
+     left: 90%;
+     top: 69%;
     
+ }
+ .link a:hover{
+     color: goldenrod;
+     
 
-}
-.link a:active{
-    color: black;
+ }
+ .link a:active{
+     color: black;
 
-}
-.link a{
-    color: black;
-}
-
-
-   
-
-.quienes{
-            color: black;
-            position: relative;
-            left: 90%;
-            top: -500px;
-
-        }
-        
+ }
+ .link a{
+     color: black;
+ }  
+ 
+ 
 .foto3{
-position: absolute;
-width: auto;
-height: auto;
-right: 20%;
-left: auto;
-top: 64%;;
+ position: absolute;
+ width: auto;
+ height: auto;
+ right: 20%;
+ left: auto;
+ top: 64%;;
 }
 .pgf{
-color: black;
+ color: black;
 }
 .pgf a{
-color: black;
+ 
+ color: black;
 }
 .pgf a:hover{
-color: goldenrod;
+ color: goldenrod;
 }
 .ayuda a{
-color: black;
+ color: black;
+}
+.logo{
+ transform: translate(500px, -1284px);
+}
+.imagenpls{
+ transform: translate(510px, 480px);
 
 }
+.navbar-example2{
+
 }
- 
- @media (min-width: $tablet; ) {
-    .body { 
-        background: $colorFondo;
-    }
-
- }
- .modeli{
-    height: auto;
-    width: auto;
-    border: 2px solid black;
-    background: linear-gradient(yellow, goldenrod);
- }
-
-
- 
-
-
-
-
-
-
